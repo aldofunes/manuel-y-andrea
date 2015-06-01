@@ -1,0 +1,56 @@
+#the-couple {
+  padding: 50px 0;
+  background: #fbfaf4;
+
+  #header {
+    h1 {
+      text-align: center;
+      color: @brand-secondary;
+      font-size: 4em;
+    }
+
+    blockquote {
+      border-left-color: @brand-primary;
+    }
+  }
+
+  #pictures-info {
+    text-align: center;
+
+    .bigRound {
+      width: 250px;
+      height: 250px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      padding: 11px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+
+    .social-icons {
+      i {
+        color: #ccc;
+        font-size: 2em;
+        &:hover {
+          color: @brand-primary;
+        }
+      }
+    }
+
+    #separator {
+      background: url("/images/line.png") no-repeat 50% 0;
+      height: 400px;
+      position: relative;
+
+      i {
+        color: @brand-primary;
+        font-size: 64px;
+        position: absolute;
+        top: 166px;
+        left: 67px;
+      }
+    }
+  }
+}
+
