@@ -32,3 +32,4 @@ useraccounts:bootstrap
 fortawesome:fontawesome
 linto:jquery-ui
 johnantoni:meteor-scrollto
+okgrow:iron-router-autoscroll

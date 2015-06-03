@@ -1,69 +1,25 @@
-section#banner {
-  position: relative;
-  height: 600px;
-  background: #ffffff url("images/pictures/kiss.jpg") no-repeat fixed bottom center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  overflow: hidden;
-  #overlay {
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    opacity: 0.5;
-    background-image: -webkit-linear-gradient(top, @brand-primary 0%, @brand-secondary 100%);
-    background-image: -moz-linear-gradient(top, @brand-primary 0%, @brand-secondary 100%);
-    background-image: -ms-linear-gradient(top, @brand-primary 0%, @brand-secondary 100%);
-    background-image: -o-linear-gradient(top, @brand-primary 0%, @brand-secondary 100%);
-    background-image: linear-gradient(top, @brand-primary 0%, @brand-secondary 100%);
-  }
+section {
+  padding: 50px 0;
 
-
-  div#banner-text {
-    background: none repeat scroll 0 0 fade(#fff, 80%);
-    margin: -140px auto 0;
-    outline: 10px solid fade(#fff, 80%);
-    outline-offset: 14px;
-    padding: 9px 30px;
-    position: relative;
-    text-align: center;
-    top: 50%;
-    width: 490px;
-    max-width: 85%;
-
-    #banner-logo {
-      max-width: 300px;
-      margin-top: 20px;
+  .header {
+    h1 {
+      text-align: center;
+      font-size: 4em;
     }
 
-    .heartline {
-      position: relative;
-      overflow: hidden;
-
-      hr {
-        height: 2px;
-        border: none;
-        border-top: 2px dashed lighten(@brand-secondary, 10%);
+    &:nth-child(2n-1) {
+      h1 {
+        color: @brand-secondary;
       }
-      
-      i {
+    }
+    &:nth-child(2n) {
+      h1 {
         color: @brand-primary;
-        font-size: 32px;
-        position: absolute;
-        top: 8px;
-        margin-left: -16px;
       }
     }
-  }
 
-  .downArrow {
-    bottom: 50px;
-    position: absolute;
-    right: 50%;
-    margin-right: -20px;
-
-    i {
-      font-size: 40px;
-      color: #fff;
+    blockquote {
+      border-left-color: @brand-primary;
     }
   }
 }

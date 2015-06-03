@@ -27,15 +27,7 @@ Template['banner'].onRendered(function(){
         $('.downArrow').css({
             'transform': 'translate(0px, '+ Math.round(wScroll / 3) +'px)'
         });
-
-        // fade in .navbar
-        if (wScroll >= 600) {
-            $('.navbar').fadeIn();
-        } else {
-            $('.navbar').fadeOut();
-        }
     });
-
 });
 
 Template['banner'].helpers({

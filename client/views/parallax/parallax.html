@@ -1,7 +1,18 @@
 <template name="parallax1">
-    <section id="parallax1">
-        <div id="overlay"></div>
-        <div id="banner-text" class="clearfix">
+    <section class="parallax" id="parallax1">
+        <div id="parallax1-background"></div>
+        <div id="parallax1-text" class="clearfix">
+            <h2>Confirma tu asistencia</h2>
+            <p>o tu ausencia</p>
+            <div class="heartline">
+                <hr>
+                <i class="fa fa-heart"></i>
+            </div>
+            <a href="{{pathFor 'rsvp'}}">
+                <button class="btn btn-default btn-block">
+                    Confirmar
+                </button>
+            </a>
         </div>
     </section>
 </template>

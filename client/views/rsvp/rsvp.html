@@ -1,3 +1,14 @@
 <template name="rsvp">
-        <iframe src="http://manuelyandrea.rsvpify.com"></iframe>
+
+    <div id="rsvpify">
+        <iframe
+                id="rsvpify-iframe"
+                onload="window.parent.scrollTo(0,0)"
+                allowtransparency="true"
+                src="http://manuelyandrea.rsvpify.com/?embed=1"
+                frameborder="0"
+                scrolling="yes"
+                >
+        </iframe>
+    </div>
 </template>

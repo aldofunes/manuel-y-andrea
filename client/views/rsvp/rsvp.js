@@ -1,4 +1,8 @@
-Template['rsvp'].onRendered({
+Template['rsvp'].onRendered(function () {
+    /**
+     * Hide Header DIV
+     */
+    $("div.header_bg").hide();
 
 });
 
