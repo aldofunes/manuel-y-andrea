@@ -15,10 +15,6 @@ binary-heap@1.0.3
 blaze@2.1.2
 blaze-tools@1.0.3
 boilerplate-generator@1.0.3
-browser-policy@1.0.4
-browser-policy-common@1.0.3
-browser-policy-content@1.0.4
-browser-policy-framing@1.0.4
 callback-hook@1.0.3
 check@1.0.5
 chuangbo:cookie@1.1.0
@@ -47,7 +43,6 @@ iron:location@1.0.9
 iron:middleware-stack@1.0.9
 iron:router@1.0.9
 iron:url@1.0.9
-johnantoni:meteor-scrollto@0.0.2
 jquery@1.11.3_2
 json@1.0.3
 lai:collection-extensions@0.1.3

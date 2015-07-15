@@ -2,22 +2,23 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header {{scrollNav}}">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{pathFor 'home'}}#banner"><img id="navbar-logo" src="images/logo-600x122.png" alt="Logo Manuel y Andrea"/></a>
+                <a class="navbar-brand {{scrollNav}}" href="{{pathFor 'home'}}#banner"><img id="navbar-logo" src="images/logo-600x122.png" alt="Logo Manuel y Andrea"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav" id="navbar-main">
-                    <li><a href="{{pathFor 'home'}}#the-couple">Los Novios</a></li>
-                    <li><a href="{{pathFor 'home'}}#parallax1">Foto</a></li>
-                    <li><a href="{{pathFor 'home'}}#schedule">Itinerario</a></li>
+                    <li><a href="{{pathFor 'home'}}#the-couple" class="{{scrollNav}}">Los Novios</a></li>
+                    <li><a href="{{pathFor 'home'}}#schedule" class="{{scrollNav}}">Itinerario</a></li>
+                    <li><a href="{{pathFor 'home'}}#importantPeople" class="{{scrollNav}}">Las Familias</a></li>
+                    <li><a href="{{pathFor 'home'}}#rsvp" class="{{scrollNav}}">Confirmación</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{pathFor 'rsvp'}}">Confirmación</a></li>
