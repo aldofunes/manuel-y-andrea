@@ -26,7 +26,7 @@
   "appName": "ManuelYAndrea",
 
   // Location of app (local directory)
-  "app": "/Users/aldofunes/Dropbox (Personal)/Development/Meteor/ManuelYAndrea",
+  "app": "/Users/aldofunes/Documents/Development/Meteor/ManuelYAndrea",
 
   // Configure environment
   "env": {
