@@ -1,0 +1,33 @@
+<template name="information">
+    <section id="information">
+        <div class="container">
+            <div class="row header" id="information-header">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <h1>Información</h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p><blockquote>
+                    Te amo para amarte y no para ser amado, puesto que nada me place tanto como verte a ti feliz.
+                    <footer>George Sand</footer>
+                </blockquote></p>
+                </div>
+            </div>
+            <div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#giftRegistry" aria-controls="giftRegistry" role="tab" data-toggle="tab">Regalos</a></li>
+                    <li role="presentation"><a href="#location" aria-controls="location" role="tab" data-toggle="tab">Ubicación</a></li>
+                    <li role="presentation"><a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hoteles</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="giftRegistry">{{> _giftRegistry}}</div>
+                    <div role="tabpanel" class="tab-pane" id="location">{{> _location}}</div>
+                    <div role="tabpanel" class="tab-pane" id="hotels">{{> _hotels}}</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</template>
