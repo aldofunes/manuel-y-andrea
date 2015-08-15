@@ -1,23 +1,27 @@
-Template['home'].onRendered(function(){
-    firstSectionId = "the-couple";
-    firstSectionElement = document.getElementById(firstSectionId);
+Template.home.onRendered(function () {
 
     $(window).scroll(function () {
-
         // Get Scroll Position
         var wScroll = $(this).scrollTop();
+        // Parallax top image
+        $('#banner-text').css({
+            'transform': 'translate(0px, '+ Math.round(wScroll / 2) +'px)'
+        });
+        // Parallax down arrow
+        $('.downArrow').css({
+            'transform': 'translate(0px, '+ Math.round(wScroll / 3) +'px)'
+        });
+    });
 
-        // fade in .navbar
-        if ( wScroll >= firstSectionElement.offsetTop ) {
-            $('.navbar').fadeIn();
-        } else {
-            $('.navbar').fadeOut();
+    $('div#header').affix({
+        offset: {
+            top: $('#banner').height()
         }
     });
+
+    $('body').scrollspy({
+        target: '#main-menu'
+    });
+
 });
 
-Template['home'].helpers({
-});
-
-Template['home'].events({
-});

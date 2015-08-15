@@ -1,0 +1,29 @@
+<template name="_header">
+    <nav class="navbar navbar-default" id="main-menu">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{pathFor 'home'}}#banner"><img id="navbar-logo" src="images/logo-600x122.png" alt="Logo Manuel y Andrea"/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{#if notHome}}{{pathFor 'home'}}{{/if}}#the-couple">Los Novios</a></li>
+                    <li><a href="{{#if notHome}}{{pathFor 'home'}}{{/if}}#schedule">Itinerario</a></li>
+                    <li><a href="{{#if notHome}}{{pathFor 'home'}}{{/if}}#important-people">Las Familias</a></li>
+                    <li><a href="{{#if notHome}}{{pathFor 'home'}}{{/if}}#information">Información</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{pathFor 'rsvp'}}">RSVP</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</template>

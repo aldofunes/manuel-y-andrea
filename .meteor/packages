@@ -30,5 +30,5 @@ tsega:skrollr
 useraccounts:bootstrap
 fortawesome:fontawesome
 linto:jquery-ui
-okgrow:iron-router-autoscroll
 okgrow:analytics
+okgrow:iron-router-autoscroll
