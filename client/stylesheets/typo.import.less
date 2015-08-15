@@ -31,6 +31,13 @@ section.parallax {
   position: relative;
   height: 500px;
   overflow: hidden;
+  .parallax {
+    width: 100%;
+    height: 100%;
+    background: #ffffff no-repeat fixed center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
 }
 
 
@@ -136,11 +143,7 @@ section#the-couple {
 	3. Parallax 1 Section
 ------------------------------------------------------*/
 div#parallax1-background {
-  width: 100%;
-  height: 100%;
-  background: #ffffff url("images/pictures/wedding.jpg") no-repeat fixed center center;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-image: url("/images/pictures/wedding.jpg");
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -182,17 +185,15 @@ div#parallax1-text {
 /*----------------------------------------------------
 	4. Schedule Section
 ------------------------------------------------------*/
+section#schedule {
 
+}
 
 /*----------------------------------------------------
 	5. Parallax 2 Section
 ------------------------------------------------------*/
 div#parallax2-background {
-  width: 100%;
-  height: 100%;
-  background: #ffffff url("images/pictures/airplane.jpg") no-repeat fixed center center;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-image: ("/images/pictures/airplane.jpg");
 }
 
 /*----------------------------------------------------
@@ -268,11 +269,7 @@ section#important-people {
 	7. Parallax 3 Section
 ------------------------------------------------------*/
 div#parallax3-background {
-  width: 100%;
-  height: 100%;
-  background: #ffffff url("images/pictures/mountain.jpg") no-repeat fixed top center;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-image: ("/images/pictures/mountain.jpg");
 }
 
 /*----------------------------------------------------
@@ -284,6 +281,14 @@ section#information {
     margin-left: -30px;
   }
 }
+
+/*----------------------------------------------------
+	9. Parallax 4 Section
+------------------------------------------------------*/
+div#parallax3-background {
+  background-image: ("/images/pictures/glaciar-2.jpg");
+}
+
 
 /*----------------------------------------------------
 	9. RSVP Page
