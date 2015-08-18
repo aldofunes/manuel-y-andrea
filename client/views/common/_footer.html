@@ -3,17 +3,49 @@
         <div class="row">
             <div class="col-sm-6">
                 <h3>
-                    Footer header 1
+                    Contáctanos
                 </h3>
                 {{> contactForm}}
             </div>
             <div class="col-sm-6">
-                <h3>
-                    Footer header 2
-                </h3>
-                <p>&copy; 2015 Manuel y Andrea</p>
-            </div>
+                <h3>Hacienda la Concepción</h3>
 
+                <p>Esta hacienda está ubicada en Tepotzotlán, muy cerca de la presa que lleva el mismo nombre.</p>
+
+                <a href="https://www.google.com/maps/dir/Current+Location/Hacienda+la+Concepcion+Tepotzotlan">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        Google Maps
+                    </button>
+                </a>
+                <a href="https://waze.to/lr/h9g92h3ks5" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        Waze
+                    </button>
+                </a>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Ver croquis
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Croquis a Hacienda la Concepción</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/images/croquis.jpg" alt="Croquis" style="max-width: 100%;"/>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>

@@ -12,22 +12,14 @@
                 </blockquote></p>
                 </div>
             </div>
-            <div>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#giftRegistry" aria-controls="giftRegistry" role="tab" data-toggle="tab">Regalos</a></li>
-                    <li role="presentation"><a href="#location" aria-controls="location" role="tab" data-toggle="tab">Ubicación</a></li>
-                    <li role="presentation"><a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hoteles</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="giftRegistry">{{> _giftRegistry}}</div>
-                    <div role="tabpanel" class="tab-pane" id="location">{{> _location}}</div>
-                    <div role="tabpanel" class="tab-pane" id="hotels">{{> _hotels}}</div>
-                </div>
-
-            </div>
+            <h2>Regalos</h2>
+            {{> _giftRegistry}}
+            <hr/>
+            <h2>Ubicación</h2>
+            {{> _location}}
+            <hr/>
+            <h2>Hoteles</h2>
+            {{> _hotels}}
         </div>
     </section>
 </template>

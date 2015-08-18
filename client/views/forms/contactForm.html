@@ -1,14 +1,23 @@
 <template name="contactForm">
-    {{#autoForm schema=contactFormSchema id="contactForm" type="method" meteormethod="sendEmail"}}
-        <fieldset>
-            <legend>Contáctanos</legend>
-            {{> afQuickField name="name"}}
-            {{> afQuickField name="email"}}
-            {{> afQuickField name="message" rows=10}}
-            <div>
-                <button type="reset" class="btn btn-default">Limpiar</button>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+    {{#autoForm schema=contactFormSchema class="form" id="contactForm" type="method" meteormethod="sendEmail"}}
+        <div class="row form-group">
+            <div class="col-xs-6">
+                {{> afFieldInput name="name" placeholder="Nombre"}}
             </div>
-        </fieldset>
+            <div class="col-xs-6">
+                {{> afFieldInput name="email" placeholder="Correo Electrónico"}}
+            </div>
+        </div>
+        <div class="form-group">
+            {{> afFieldInput name="message" placeholder="Mensaje" rows=5}}
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <button type="reset" class="btn btn-default btn-block">Limpiar</button>
+            </div>
+            <div class="col-xs-6">
+                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </div>
+        </div>
     {{/autoForm}}
 </template>
