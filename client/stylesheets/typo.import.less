@@ -19,6 +19,19 @@
   -moz-box-shadow: 0 0 10px @gray-light;
   box-shadow: 0 0 10px @gray-light;
 }
+section {
+  padding: 50px 0;
+  .header {
+    h1 {
+      text-align: center;
+      font-size: 4em;
+      color: @brand-secondary;
+    }
+    blockquote {
+      border-left-color: @brand-primary;
+    }
+  }
+}
 section.parallax {
   padding: 0;
   position: relative;
@@ -285,9 +298,9 @@ div#parallax3-background {
 }
 
 /*----------------------------------------------------
-	8. Information Section
+	8. Gift Registry Section
 ------------------------------------------------------*/
-section#information {
+section#gift-registry {
   .row li {
     list-style: none;
     margin-left: -30px;
@@ -301,6 +314,28 @@ div#parallax4-background {
   background-image: url("/images/pictures/glaciar-2.jpg");
 }
 
+/*----------------------------------------------------
+	10. Hotels Section
+------------------------------------------------------*/
+section#hotels {
+  i {
+    color: @brand-primary;
+  }
+  a {
+    color: @brand-secondary;
+  }
+  .row li {
+    list-style: none;
+    margin-left: -30px;
+  }
+}
+
+/*----------------------------------------------------
+	8. Footer
+------------------------------------------------------*/
+footer {
+
+}
 
 /*----------------------------------------------------
 	9. RSVP Page
