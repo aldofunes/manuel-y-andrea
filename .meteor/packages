@@ -7,7 +7,6 @@ meteor-platform
 less
 jquery
 underscore
-accounts-password
 aldeed:collection2
 iron:router
 raix:handlebar-helpers
@@ -20,14 +19,9 @@ natestrauser:animate-css
 dburles:collection-helpers
 meteorhacks:fast-render
 
-accounts-facebook
-accounts-google
-accounts-twitter
 meteorhacks:kadira
-msavin:mongol
 nemo64:bootstrap
 tsega:skrollr
-useraccounts:bootstrap
 fortawesome:fontawesome
 linto:jquery-ui
 okgrow:analytics
