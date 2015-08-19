@@ -28,7 +28,7 @@ ejson@1.0.6
 email@1.0.6
 facebook@1.2.1
 fastclick@1.0.3
-fortawesome:fontawesome@4.3.0
+fortawesome:fontawesome@4.4.0
 geojson-utils@1.0.3
 google@1.1.5
 gwendall:session-json@0.1.7
@@ -103,8 +103,8 @@ ui@1.0.6
 underscore@1.0.3
 underscorestring:underscore.string@3.0.3_1
 url@1.0.4
-useraccounts:bootstrap@1.12.0
-useraccounts:core@1.12.0
+useraccounts:bootstrap@1.12.2
+useraccounts:core@1.12.2
 webapp@1.2.0
 webapp-hashing@1.0.3
 zimme:iron-router-active@1.0.4
