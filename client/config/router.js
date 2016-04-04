@@ -2,7 +2,7 @@ Router.configure({
   layoutTemplate: 'basicLayout'
 });
 
-IronRouterAutoscroll.animationDuration = 1000;
+RouterAutoscroll.animationDuration = 1000;
 
 Router._scrollToHash = function(hash) {
   var section = $(hash);

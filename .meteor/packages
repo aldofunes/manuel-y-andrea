@@ -3,7 +3,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
 less
 jquery
 underscore
@@ -18,13 +17,26 @@ manuelschoebel:ms-seo
 natestrauser:animate-css
 dburles:collection-helpers
 meteorhacks:fast-render
-
+force-ssl
 meteorhacks:kadira
 nemo64:bootstrap
 tsega:skrollr
 fortawesome:fontawesome
 linto:jquery-ui
 okgrow:analytics
-okgrow:iron-router-autoscroll
+okgrow:router-autoscroll
 aldeed:autoform
 email
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
