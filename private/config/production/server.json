@@ -1,0 +1,10 @@
+{
+  "kadira": {
+    "appId": "mtmcjqhX9uhwDtxcN",
+    "appSecret": "99e422e6-bf20-4308-a047-9287cc93c8c4"
+  },
+  "orion-cli": {
+    "profile": "default",
+    "config": "private/orion-config.json"
+  }
+}
