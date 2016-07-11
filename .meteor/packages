@@ -8,7 +8,6 @@
 4commerce:env-settings
 
 # Security
-bmgtech:force-ssl-elb
 
 
 less
