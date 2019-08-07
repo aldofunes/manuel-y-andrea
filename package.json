@@ -1,0 +1,23 @@
+{
+  "name": "manuelyandrea",
+  "version": "1.0.0",
+  "description": "Sitio web para Manuel y Andrea",
+  "scripts": {
+    "start": "meteor --settings settings.json",
+    "docker:login": "aws ecr get-login --profile bmgtech | sh",
+    "docker:build": "docker build -t 409566040920.dkr.ecr.us-east-1.amazonaws.com/manuelyandrea:$npm_package_version .",
+    "docker:push": "docker push 409566040920.dkr.ecr.us-east-1.amazonaws.com/manuelyandrea:$npm_package_version",
+    "docker:deploy": "npm run-script docker:login && npm run-script docker:build && npm run-script docker:push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://APKAJPF7LJMFV74AEUDQ@git-codecommit.us-east-1.amazonaws.com/v1/repos/ManuelYAndrea"
+  },
+  "keywords": [
+    "wedsite",
+    "wedding",
+    "website"
+  ],
+  "author": "BMG Tech",
+  "license": "ISC"
+}
